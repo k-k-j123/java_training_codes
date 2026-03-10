@@ -6,6 +6,7 @@ class BusBooking {
         for (int i = 0; i < 3; i++) {
             System.out.println("Hello " + name);
         }
+        //block level sync
         synchronized(this){
             if (s <= seats) {
                 seats = seats - s;

@@ -1,4 +1,6 @@
 /*
+without multithreading --
+
 import java.util.Scanner;
 public class MultiThreading2{
 	
@@ -38,7 +40,6 @@ class SeatBooking extends Thread
 	{
 		this.s = s;
 	}
-	
 	public synchronized void run()
 	{
 			String name = Thread.currentThread().getName();

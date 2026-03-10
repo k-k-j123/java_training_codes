@@ -82,7 +82,7 @@ public class Ops2Dmatrix {
                 }
 
                 if (arr[i][j] == 0) {
-                    evendiv = 0; // anything/0 → treat as 0
+                    evendiv = 0; 
                 } else if (x % 2 == 0) {
                     evendiv /= arr[i][j];
                 } else {
@@ -134,7 +134,12 @@ public class Ops2Dmatrix {
             case 4:
                 Division(arr, row, columns);
                 break;
+            default:
+                System.out.println("Invalid choice");
+                break;
         }
+
+        sc.close();
 
     }
 }
