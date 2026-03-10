@@ -1,0 +1,7 @@
+1. Import package
+2. Load driver
+3. Connect Database
+4. create statement
+5. execute statement
+6. Accept response
+7. close connection
