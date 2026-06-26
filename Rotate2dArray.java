@@ -44,7 +44,7 @@ public class Rotate2dArray{
         for(int i=0;i<row;i++){
             //applying the two pointer on subarrays
             int start = 0;
-            int end = row-1;
+            int end = columns-1;
 
             while(start < end){ 
                 int temp = arr[i][start];
